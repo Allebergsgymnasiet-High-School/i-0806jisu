@@ -1,0 +1,15 @@
+/workspaces/i-0806jisu/obj/Debug/net8.0/i-0806jisu.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/i-0806jisu/obj/Debug/net8.0/i-0806jisu.AssemblyInfoInputs.cache
+/workspaces/i-0806jisu/obj/Debug/net8.0/i-0806jisu.AssemblyInfo.cs
+/workspaces/i-0806jisu/obj/Debug/net8.0/i-0806jisu.csproj.CoreCompileInputs.cache
+/workspaces/i-0806jisu/obj/Debug/net8.0/i-0806jisu.sourcelink.json
+/workspaces/i-0806jisu/bin/Debug/net8.0/i-0806jisu
+/workspaces/i-0806jisu/bin/Debug/net8.0/i-0806jisu.deps.json
+/workspaces/i-0806jisu/bin/Debug/net8.0/i-0806jisu.runtimeconfig.json
+/workspaces/i-0806jisu/bin/Debug/net8.0/i-0806jisu.dll
+/workspaces/i-0806jisu/bin/Debug/net8.0/i-0806jisu.pdb
+/workspaces/i-0806jisu/obj/Debug/net8.0/i-0806jisu.dll
+/workspaces/i-0806jisu/obj/Debug/net8.0/refint/i-0806jisu.dll
+/workspaces/i-0806jisu/obj/Debug/net8.0/i-0806jisu.pdb
+/workspaces/i-0806jisu/obj/Debug/net8.0/i-0806jisu.genruntimeconfig.cache
+/workspaces/i-0806jisu/obj/Debug/net8.0/ref/i-0806jisu.dll
