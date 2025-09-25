@@ -1,28 +1,87 @@
-﻿Console.WriteLine("Hej, Välkommen!");
-Console.ReadLine();
-Console.WriteLine("Koden beräknar resultatet av två heltal");
-Console.ReadLine();
+﻿Console.WriteLine("Välkommen till mitt program");
+Console.WriteLine("Vad heter du");
 
-Console.WriteLine("Skriv in första heltal");
-string inm1 = Console.ReadLine();
-Console.WriteLine("Skriv in andra heltal");
-string inm2 = Console.ReadLine();
+string namn = Console.ReadLine();
+Console.WriteLine($"Hej {namn}, hur gammal är du?");
 
-//double --> DOUBLE FLOATING POINT NUMBER
+string alder = Console.ReadLine();
+int age = Convert.ToInt32(alder);
+Console.WriteLine($"Om ett år är du {age + 1} år gammal");
+if (age > 15)
+{
+    Console.WriteLine("Du är fortfarande ung");
+}
+else
+{
+    Console.WriteLine("Du är vuxen");
+}
+Console.WriteLine("Vad heter huvudstaden i Sverige?");
+string huvudstad = Console.ReadLine();
+if (huvudstad == "Stockholm")
+{
+    Console.WriteLine("Rätt svar");
+}
+else
+{
+    Console.WriteLine("Fel svar");
+}
 
-double tal1 = Convert.ToDouble(inm1);
-double tal2 = Convert.ToDouble(inm2);
-double div = tal1 / tal2;
+Console.WriteLine("Nästa fråga");
+Console.WriteLine("Hur många invånare har Sverige?");
+if (Console.ReadLine() == "10 miljoner")
+{
+    Console.WriteLine("Rätt svar");
+}
+else
+{
+    Console.WriteLine("Fel svar");
+}
+Console.WriteLine("Vem vann fotbolls-VM 2018?");
+if (Console.ReadLine() == "Frankrike")
+{
+    Console.WriteLine("Rätt svar");
+}
+else
+{
+    Console.WriteLine("Fel svar");
+}
+Console.WriteLine("Vill du fortsätta?");
+if (Console.ReadLine() == "Ja")
+{
+    // Fortsätt med programmet
+}
+else
+{
+    Console.WriteLine("Tack för att du deltog!");
+    Environment.Exit(0);
+}
+// Fortsätt med programmet
+    Console.WriteLine("Hur många länder finns det i Europa?");
+    if (Console.ReadLine() == "44")
+    {
+        Console.WriteLine("Rätt svar");
+    }
+    else
+    {
+        Console.WriteLine("Fel svar");
+    }
+    Console.WriteLine("Vilket år startade andra världskriget?");
+    if (Console.ReadLine() == "1939")
+    {
+        Console.WriteLine("Rätt svar");
+    }
+    else
+    {
+        Console.WriteLine("Fel svar");
+    }
 
-Console.WriteLine($"{tal1} / {tal2} = {div}");
-Console.ReadLine(); 
-
-
-
-// int tal1 = Convert.ToInt32(inm1);
-// int tal2 = Convert.ToInt32(inm2);
-
-// int summa = tal1 + tal2;
-
-// Console.WriteLine($"{tal1} + {tal2} = {summa}");
-
+    Console.WriteLine("Tack att du deltog i frågesporten");
+    Console.WriteLine("Vill du avsluta programmet?");
+    if (Console.ReadLine() == "Ja")
+    {
+        Console.WriteLine("Programmet avslutas");
+    }
+    else
+    {
+        Console.WriteLine("slut på frågor");
+    }
